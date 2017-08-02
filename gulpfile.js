@@ -3,7 +3,6 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var sass = require('gulp-sass');
 var minifyCSS = require('gulp-minify-css');
-var webserver = require('gulp-webserver');
 var watch = require('gulp-watch');
 
 gulp.task('script', function(){
